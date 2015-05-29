@@ -1,5 +1,5 @@
 //
-//  UIImage+ColorDrawing.h
+//  UIImage+Creation.m
 //  iosutils - https://github.com/everbeen/iosutils
 //
 //  Copyright (c) 2015 Eric
@@ -23,9 +23,13 @@
 //  SOFTWARE.
 //
 
-#import "UIImage+ColorDrawing.h"
+#import "UIImage+Creation.h"
 
-@implementation UIImage (ColorDrawing)
+@implementation UIImage (Creation)
+
++ (instancetype)templateImageNamed:(NSString *)name {
+	return [[UIImage imageNamed:name] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+}
 
 + (instancetype)imageWithColor:(UIColor *)color size:(CGSize)size {
 	CGFloat alpha;

@@ -1,5 +1,5 @@
 //
-//  UIImage+ColorDrawing.h
+//  UIImage+Creation.h
 //  iosutils - https://github.com/everbeen/iosutils
 //
 //  Copyright (c) 2015 Eric
@@ -25,7 +25,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (ColorDrawing)
+@interface UIImage (Creation)
+
+/**
+ * 返回给定名字的图像的 UIImageRenderingModeAlwaysTemplate 渲染模式副本。
+ */
++ (instancetype)templateImageNamed:(NSString *)name;
 
 /**
  * 使用纯色 @p color 绘制一副具有尺寸 @p size 的图像。

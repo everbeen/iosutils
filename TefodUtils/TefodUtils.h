@@ -27,7 +27,7 @@
 #define __EVERBEEN_TefodUtils_h
 
 #import "UIColor+RGB.h"
-#import "UIImage+ColorDrawing.h"
+#import "UIImage+Creation.h"
 #import "UIView+ParallaxEffects.h"
 #import "UIView+AutoLayout.h"
 #import "UIButton+Actions.h"
