@@ -112,11 +112,4 @@
  */
 - (void)autoLayoutVF:(id)object views:(NSDictionary *)views metrics:(NSDictionary *)metrics;
 
-/**
- * 获取由 object 所表达的所有布局约束 (NSArray).
- *
- * @param object 只能提供 @p NSString 和 @p NSArray 类型的数据。
- */
-- (NSArray *)autoLayoutConstraintsWithVF:(id)object views:(NSDictionary *)views metrics:(NSDictionary *)metrics;
-
 @end

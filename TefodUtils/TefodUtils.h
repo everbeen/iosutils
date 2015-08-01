@@ -30,6 +30,7 @@
 #import "UIImage+Creation.h"
 #import "UIView+ParallaxEffects.h"
 #import "UIView+AutoLayout.h"
+#import "NSLayoutConstraint+VFS.h"
 #import "UIButton+Actions.h"
 
 #import "NSRegularExpression+IsMatch.h"
