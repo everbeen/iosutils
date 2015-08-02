@@ -31,6 +31,7 @@
 #import "UIView+ParallaxEffects.h"
 #import "UIView+AutoLayout.h"
 #import "NSLayoutConstraint+VFS.h"
+#import "UITraitCollection+PrintSizeClasses.h"
 #import "UIButton+Actions.h"
 
 #import "NSRegularExpression+IsMatch.h"
