@@ -26,6 +26,11 @@ typedef NS_ENUM(NSInteger, TFUserInterfaceSizeLevel) {
 @interface UITraitCollection (ScreenLevel)
 
 /**
+ * 获取当前设备的屏幕的尺寸级别 (size level).
+ */
++ (TFUserInterfaceSizeLevel)sizeLevel;
+
+/**
  * 获取当前设备的屏幕的尺寸级别 (size level). 只读。
  */
 @property (assign, nonatomic, readonly) TFUserInterfaceSizeLevel sizeLevel;

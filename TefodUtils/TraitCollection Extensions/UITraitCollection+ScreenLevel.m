@@ -10,7 +10,7 @@
 
 @implementation UITraitCollection (ScreenLevel)
 
-- (TFUserInterfaceSizeLevel)sizeLevel {
++ (TFUserInterfaceSizeLevel)sizeLevel {
 	static TFUserInterfaceSizeLevel sharedSizeLevel;
 	static dispatch_once_t onceToken;
 	dispatch_once(&onceToken, ^{
@@ -30,6 +30,10 @@
 		}
 	});
 	return sharedSizeLevel;
+}
+
+- (TFUserInterfaceSizeLevel)sizeLevel {
+	return [[self class] sizeLevel];
 }
 
 @end
