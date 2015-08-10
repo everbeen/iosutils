@@ -42,8 +42,4 @@
 	return [[UIColor alloc] initWithRed:red green:green blue:blue alpha:alpha];
 }
 
-- (UIColor *)colorWithAlphaComponentHex:(NSInteger)hex {
-	return [self colorWithAlphaComponent:hex / 255.0];
-}
-
 @end

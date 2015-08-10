@@ -41,9 +41,6 @@
  */
 + (instancetype)colorWithRgbaHex:(NSInteger)hex;
 
-/**
- * 以当前颜色的 RGB 为基准，生成新的颜色并使用给定的 alpha hex 值 (0~255) 作为新颜色的 alpha 值。
- */
-- (UIColor *)colorWithAlphaComponentHex:(NSInteger)hex;
+
 
 @end
