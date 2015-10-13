@@ -36,6 +36,7 @@
 #import "UITraitCollection+PrintSizeClasses.h"
 #import "UIButton+Actions.h"
 
+#import "TUSecrets.h"
 #import "NSRegularExpression+IsMatch.h"
 
 #endif
